@@ -1,0 +1,4 @@
+FROM openjdk:18
+EXPOSE 8080
+ADD ./target/BMSOLUCIONES.jar BMSOLUCIONES.jar
+ENTRYPOINT ["java","-jar","/BMSOLUCIONES.jar"]
