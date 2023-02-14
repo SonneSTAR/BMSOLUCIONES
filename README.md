@@ -1,6 +1,6 @@
 # BMSOLUCIONES
 
-Prueba Técnica MBSOLUCIONES
+Prueba Técnica BMSOLUCIONES
 ===========================
 
 Clonar repositorio
