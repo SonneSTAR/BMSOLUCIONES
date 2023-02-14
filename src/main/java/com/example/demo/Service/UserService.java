@@ -52,10 +52,6 @@ public class UserService {
 
     public void changeIsActive(Integer id, User user) {
         User updatedUser = userRepository.findById(id).get();
-        /*updatedUser.setName(user.getName());
-        updatedUser.setEmail(user.getEmail());
-        updatedUser.setPassword(user.getPassword());
-        updatedUser.setModiEd(LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd-MM-yyyy")));*/
         updatedUser.setIsactive(user.getIsactive());
         userRepository.save(updatedUser);
     }
