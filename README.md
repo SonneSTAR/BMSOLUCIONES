@@ -15,7 +15,7 @@ Una vez creada la imagen Docker
 
 Ejecutar comando `docker images` y copiar el ID de la imagen recien creada.
 
-Para ejecutar la imagen docker, crear contenedor y que se ejecute la aplicación ejecutar:
+Para ejecutar la imagen docker:
 
 `docker run |idDdeLaImagen|`
 
