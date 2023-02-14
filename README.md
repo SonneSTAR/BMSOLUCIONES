@@ -1,6 +1,14 @@
 Prueba Técnica MBSOLUCIONES
 ===========================
 
+PATH API
+GET /bmsoluciones
+POST /bmsoluciones
+PUT /bmsoluciones/1
+DELETE /bmsoluciones/1
+
+ISACTIVE /bmsoluciones/isActive/1
+
 Clonar repositorio
 
 Ejecutar el archivo package en la ruta `demo/Lifecycle/package` para la compilación y la creación de la carpeta target
