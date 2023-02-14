@@ -1,13 +1,31 @@
 Prueba Técnica MBSOLUCIONES
 ===========================
 
-PATH API
-GET /bmsoluciones
-POST /bmsoluciones
-PUT /bmsoluciones/1
-DELETE /bmsoluciones/1
+### PATH API
 
-ISACTIVE /bmsoluciones/isActive/1
+GET
+
+`/bmsoluciones`
+
+POST
+
+`/bmsoluciones`
+
+JSON EXAMPLE for all
+
+`{ "name": "Ricardo Poblete", "email": "ricardo.ignacio18@hotmail.com", "password": "hunter2", "modiEd":"05-01-2023", "isactive":false, "phones": [ { "number": "1234567", "citycode": "1", "contrycode": "57" } ] }`
+
+PUT
+
+`/bmsoluciones/1`
+
+DELETE
+
+`/bmsoluciones/1`
+
+ISACTIVE
+
+`/bmsoluciones/isActive/1`
 
 Clonar repositorio
 
@@ -23,7 +41,7 @@ Una vez creada la imagen Docker
 
 Ejecutar comando `docker images` y copiar el ID de la imagen recien creada.
 
-Para ejecutar la imagen docker:
+Para ejecutar la imagen docker, crear contenedor y que se ejecute la aplicación ejecutar:
 
 `docker run |idDdeLaImagen|`
 
